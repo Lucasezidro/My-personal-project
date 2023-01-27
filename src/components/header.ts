@@ -25,4 +25,9 @@ export const Container = styled.div`
         border: 2px solid var(--green-default);
         color: var(--green-default)
     }
+
+    .menu-button {
+        position: absolute;
+        right: 30px;
+    }
 `

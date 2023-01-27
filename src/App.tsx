@@ -6,8 +6,8 @@ function App() {
 
   return (
     <AuthContextProvider>
-      <Outlet />
-      <GlobalTheme />
+        <Outlet />
+        <GlobalTheme />
     </AuthContextProvider>
   )
 }
