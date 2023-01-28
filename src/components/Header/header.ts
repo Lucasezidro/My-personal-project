@@ -30,4 +30,9 @@ export const Container = styled.div`
         position: absolute;
         right: 30px;
     }
+
+    a {
+        color: var(--platinum);
+        font-weight: bold;
+    }
 `

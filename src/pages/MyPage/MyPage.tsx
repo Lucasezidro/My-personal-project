@@ -1,5 +1,5 @@
-import { Header } from "../../components/Header";
-import { Menu } from "../../components/Menu";
+import { Header } from "../../components/Header/Header";
+import { Menu } from "../../components/Menu/Menu";
 import { Container } from "./styles";
 import * as Avatar from '@radix-ui/react-avatar';
 import { BsLinkedin, BsGithub, BsFacebook, BsYoutube } from "react-icons/bs"

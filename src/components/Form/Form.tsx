@@ -1,7 +1,7 @@
 import { FormEvent, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { api } from "../lib/axios";
-import { AuthContext } from "../context/AuthContext";
+import { api } from "../../lib/axios";
+import { AuthContext } from "../../context/AuthContext";
 
 export function Form() {
   

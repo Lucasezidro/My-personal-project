@@ -1,7 +1,7 @@
 import { FormEvent, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container } from "./styles";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/Header/Header";
 import { api } from "../../lib/axios";
 import { AuthContext } from "../../context/AuthContext";
 
