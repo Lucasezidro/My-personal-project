@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
+    z-index: 2;
 
     .close {
         position: relative;
@@ -39,6 +40,18 @@ export const Container = styled.div`
         p {
             padding-top: 50px;
             padding-left: 50px;
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        .icon {
+            font-size: 40px;
+            color: #38bdf8;
         }
     }
 `

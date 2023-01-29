@@ -15,7 +15,7 @@ export function MyPage () {
             <Avatar.Root>
                 <Avatar.Image 
                     className="img-profile"
-                    src="https://lh3.googleusercontent.com/a/AEdFTp42TTSFjr7Ucqk_t0EvTYxIm1Fg09zMMXtmluilGw=s288-p-rw-no" 
+                    src="https://avatars.githubusercontent.com/u/80000943?s=400&u=eecdbdcd2a4684bdf632882a2f72a7ec6207bbed&v=4" 
                     alt="Lucas Ezidro"
                 />
                 <Avatar.Fallback delayMs={600}>LE</Avatar.Fallback>

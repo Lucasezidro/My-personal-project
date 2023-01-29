@@ -13,7 +13,7 @@ export const Container = styled.div`
     }
 
     .social-media {
-        width: 350px;
+        width: 330px;
         height: 400px;
         position: relative;
         background-color: var(--blue-dark);
@@ -27,20 +27,20 @@ export const Container = styled.div`
         h1 {
             position: relative;
             top: 120px;
-            left: 40px;
+            left: 35px;
         }
 
         h3 {
             position: relative;
             top: 130px;
-            left: 25px;
+            left: 20px;
             color: var(--gray-300)
         }
 
         .links {
             position: relative;
             top: 200px;
-            left: 70px;
+            left: 60px;
 
             a {
                 margin-right: 13px;

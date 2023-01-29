@@ -3,12 +3,11 @@ import { Container } from "./modal";
 interface ModalProps {
     setOpenModal: React.Dispatch<React.SetStateAction<boolean>>
     title: string;
-    content: string;
-    list?: string | React.ReactNode;
-    showList?: boolean
+    content: string | React.ReactNode;
+    icon?: React.ReactNode;
 }
 
-export function Modal ({ setOpenModal, title, content, list, showList }: ModalProps) {
+export function Modal ({ setOpenModal, title, content, icon }: ModalProps) {
     return (
         <Container>
             <button onClick={() => setOpenModal(false)} className="close">
@@ -16,15 +15,15 @@ export function Modal ({ setOpenModal, title, content, list, showList }: ModalPr
             </button>
 
             <div className="modal-info">
-                <h1>{title}</h1>
+                <div className="content">
+                    <h1>{title} |</h1>
+                    <div className="icon">
+                        {icon}
+                    </div>
+                </div>
 
-                <p>{content}</p>
+                <div>{content}</div>
 
-                {showList && (
-                    <ul>
-                        <li>{list}</li>
-                    </ul>
-                )}
             </div>
         </Container>
     )

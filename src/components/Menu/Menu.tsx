@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container } from "./menu";
 import { Modal } from "../Modal/Modal";
+import { FaReact } from "react-icons/fa"
 
 export function Menu() {
   const [openModal, setOpenModal] = useState(false)
@@ -15,6 +16,7 @@ export function Menu() {
           setOpenModal={setOpenModal} 
           title="Minha Experiencia com React JS"
           content="Minha jornada começou..."
+          icon={<FaReact />}
         />
       }
       
